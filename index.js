@@ -16,7 +16,11 @@ const searchRoutes = require("./routes/search");
 const profileRoutes = require("./routes/profile");
 
 const req = require("express/lib/request");
+<<<<<<< HEAD
 const MONGODB_URI = process.env.DATABASE;
+=======
+const MONGODB_URI = "mongodb+srv://anku_13:Pass%401234@cluster0.gmbvrut.mongodb.net/campplace?retryWrites=true&w=majority"
+>>>>>>> 52176d2531b547e697206089eda4c2441c6c72aa
 
 
 const store = new MongoDBStore({uri: MONGODB_URI, collection: 'sessions'})
