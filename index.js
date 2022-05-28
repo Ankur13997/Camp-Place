@@ -1,4 +1,5 @@
 const express = require("express");
+const dotenv = require("dotenv").config();
 const app = express();
 const path = require("path");
 const bodyParser = require("body-parser");
@@ -15,7 +16,7 @@ const searchRoutes = require("./routes/search");
 const profileRoutes = require("./routes/profile");
 
 const req = require("express/lib/request");
-const MONGODB_URI = "mongodb+srv://anku_13:Pass%401234@cluster0.gmbvrut.mongodb.net/?retryWrites=true&w=majority"
+const MONGODB_URI = process.env.DATABASE;
 
 
 const store = new MongoDBStore({uri: MONGODB_URI, collection: 'sessions'})
