@@ -54,7 +54,6 @@ app.get("/", (req, res) => { // const isLoggedIn = req.get('Cookie').split(";")[
     res.render("home.ejs");
 });
 
-
 const host = '0.0.0.0';
 const port = process.env.PORT || 3000;
 app.listen(port, host, function(){
