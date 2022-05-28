@@ -1,6 +1,6 @@
 # Camp-Place
 https://campplacee.herokuapp.com/
 
-#Installation
+# Installation
 1) npm install
 2) node index.js
