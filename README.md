@@ -1,5 +1,5 @@
 # Camp-Place
-https://campplacee.herokuapp.com/
+https://camp-place.onrender.com/
 
 # Installation
 1) npm install
